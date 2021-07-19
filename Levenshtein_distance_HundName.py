@@ -19,11 +19,11 @@ In this dataset of dog names in Zurich, find all names that have a Levenshtein d
 
 2. The hundname muss all have the same len and 'Luca'. If they do not have same len, the need to contain a sequence of letter in the correct order "luca" somweher ein their text(string)  (#example '"Bo" Bendy of Luca')
 
-5. Remove from the list of names all possible duplicate names from the list  hundname_list_new = list(set(hundname_list))
+3. Remove from the list of names all possible duplicate names from the list  hundname_list_new = list(set(hundname_list))
 
-6.  Deal with possible alternative for the middles letters of our new list of hundnames.
+4.  Deal with possible alternative for the middles letters of our new list of hundnames.
 
-7. Finally, we have a list of hund name that 1 Levenshtein distance away from 'Luca'. 
+5. Finally, we have a list of hund name that 1 Levenshtein distance away from 'Luca'. 
 
 """
 
